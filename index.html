@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="api/stylesheet/style.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="api/js/map.js"></script>
+    <script src="api/js/modalWindow.js"></script>
+
+
+</head>
+<body>
+<header class="navbar-default navbar-fixed-top wapper">
+    <div class="navbar-inverse">
+        <div class="contain">
+            <div class="header-left col-lg-10 col-md-10 col-sm-8 col-xs-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Доставка по Минску бесплатно!</a></li>
+                    <li><a href="#">Цены ниже рыночных!</a></li>
+                    <li><a href="#">Все в наличии</a></li>
+                    <li class="togler dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false">Section<i class="glyphicon glyphicon-triangle-bottom"></i></a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="#">Доставка по Минску бесплатно!</a></li>
+                            <li><a href="#">Цены ниже рыночных!</a></li>
+                            <li><a href="#">Все в наличии</a></li>
+                            <li><a href="#">Пн-Вс  9:00-18:00</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Пн-Вс  9:00-18:00</a></li>
+                </ul>
+            </div>
+            <div class="header-right col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Найти<span><i class="material-icons">&#xE8B6;</i></span></a></li>
+                    <li><span></span><a href="#"><i class="material-icons">&#xE7FD;</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-tellme">
+        <div class="contain row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 logo">
+                <a class="navbar-brand">ЛОГО КОМПАНИИ</a>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                <ul class="navbar-phon">
+                    <li><a><span></span>+37529 333 33 33</a></li>
+                    <li><a><span></span>+37525 333 33 33</a></li>
+                    <li><a><span></span>+37533 333 33 33</a></li>
+                    <li style="clear: both"></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <button id="sendMail" type="button" class="btn btn-primary navbar-right batt">Заказать звонок</button>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-inverse team-wapper ">
+        <div class="contain link">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-6 left-coll">
+                <div>
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed" aria-expanded="true">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbarCollapse" class="navbar-collapse collapse in">
+                    <ul class="nav navbar-nav">
+                        <li><a>Каталог</a></li>
+                        <li><a>О нас</a></li>
+                        <li><a>Доставка и оплата</a></li>
+                        <li><a>Гарантия и возврат</a></li>
+                        <li><a>Вакансии</a></li>
+                        <li><a>Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 right-coll">
+                <div class="navbar-right">
+                    <span>48,25 BYN</span>
+                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                    <span>2</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="main">
+        <div class="contain-slider">
+            <div class="sliders-prelod">
+                <div class="sliders-osn">
+                    <img src="api/image/slider/Layer71.jpg" width="1369" height="330" alt="picture"/>
+                    <div class="sliders">
+                        <div><a href="#"><span>кОНТАКТЫ</span><br>Мы всегда на связи!</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="contain">
+            <ul class="breadcrumb">
+                <li><a href="#">Главная </a></li>
+                <li class="active">Контакты</li>
+            </ul>
+        </nav>
+        <div class="contain">
+            <div class="contacs col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <div class="call">
+                    <ul>
+                        <li><h4>Свяжитесь с нами<br> любым удобным способом:</h4></li>
+                        <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><span>Оптовый отдел: </span><a>+375-29-391-91-28</a></li>
+                        <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><span>Телефон для связи в России: </span><a>+375-29-391-91-28</a></li>
+                        <li><i class="fa fa-skype" aria-hidden="true"></i><a>autostrong-minsk</a></li>
+                        <li><span class="glyphicon glyphicon-mail"></span><a>autostrong@yandex.ru</a></li>
+                        <li><h4>Информационное<br>сотрудничество:</h4></li>
+                        <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a>+375 29 333 33 33(Velcom) </a></li>
+                        <li><h4>Оптовое сотрудничество:</h4></li>
+                        <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a>+375 29 333 33 33(Velcom) </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="adress">
+        <div class="contain">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <h4>Торговые места:</h4>
+                <ul>
+                    <li><i id="map1" class="fa fa-map-marker" aria-hidden="true"></i><a>№33/3</a></li>
+                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a><span>+375 44 333 33 33 (Velcom)</span><br><span>+375 44 333 33 33 (Velcom)</span></a></li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><a><span>Вт–Вс</span><br><span>с 9-00 до 16-00</span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h4>Основной склад и магазин:</h4>
+                <ul>
+                    <li><i id="map2" class="fa fa-map-marker" aria-hidden="true"></i><a>г. Минск, ул. Ивановская, 0</a></li>
+                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a><span>+375 29 333 33 33 (Velcom)</span><br><span>+375 29 333 33 33 (Velcom)</span><br><span>+375 29 333 33 33 (Velcom)</span></a></li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><a><span>Пн–Вс</span><br><span>с 9-00 до 19-00</span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <h4>Юридический адрес:</h4>
+                <ul>
+                    <li><i id="map3" class="fa fa-map-marker" aria-hidden="true"></i><a><span>220089 РБ г. Минск</span><br><span>ул. Ивановская, 0</span></a></li>
+                </ul>
+                <h4>Наши реквизиты:</h4>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+</div>
+<footer>
+    <div class="contain">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a class="navbar-brand">ЛОГО КОМПАНИИ</a>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-nav">
+            <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a>Каталог</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a>О нас</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a>Доставка и оплата</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a>Гарантия и возврат</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a>Вакансии</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a>Контакты</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-soc">
+            <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <li><a><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                <li><a><span class="glyphicon glyphicon-mail"></span></a></li>
+                <li><a><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+<div class="contain">
+    <div id="send-window" class="container-rama">
+        <div class="center-mail">
+            <div class="top-name-form">
+                <h3>Есть вопросы или предложения?</h3>
+                <h4>Пишите нам в любое время!</h4>
+            </div>
+            <div class="form-content">
+                <form>
+                    <fieldset>
+                        <input id="name-person" class="form-control text" type="text" placeholder="Ваше имя" name="name">
+                        <input id="mail-person" class="form-control text" type="text" placeholder="Ваш email*">
+                        <input id="phone-person" class="form-control text " type="text" placeholder="Ваш номер телефона*">
+                        <textarea id="text-person" class="form-control text" placeholder="Ваше сообщение"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="button-content">
+                <button id="click-send" type="button" class="btn btn-default" title="send">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
